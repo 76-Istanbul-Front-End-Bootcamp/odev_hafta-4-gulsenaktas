@@ -47,45 +47,74 @@ table {
     border-spacing: 0;
 }
 
-/* OUR CSS */
-body {
-    background: #e6e6e6;
-}
 
-header {
+/*OUR CSS*/
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #352f5b;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    color:white;
+    font-size: 20px;
+    height: 13vh ;
     text-align: center;
-    background: #c5a880;
-    padding: 15px 0;
+    padding-top: 40px ;
 }
+.container{
+    margin:20px auto;
+    width: 30vw;
+    border:3px solid #3d3180 ;
 
-.container {
-    max-width: 400px;
-    margin: 20px auto;
 }
-
-.currency-box {
-    margin: 20px 0;
+.datas{
+    display: flex;
+    justify-content: space-around;
 }
-
-.currency-amount {
-    margin: 15px 0;
+p{
+    text-decoration: underline;
+    margin: 5px;
 }
-
+.currency-box{
+    margin: 20px;
+    color: white;
+    font-weight: bold
+}
+.currency-amount{
+    padding-left: 5.5vw;
+    margin: 15px;
+    color: white;
+    font-weight: bold;
+}
+.input-border{
+    width: 10vw;
+}
+.currency-amount input{
+    border: 3px solid  #3d3180;
+    background-color: #423a6f;
+    color: white;
+    outline-color:  #3d3180;
+}
 .currency-calculate{
-    margin: 15px 0;
+    margin: 15px;
 }
-
-.currency-calculate button {
+.currency-calculate button{
+    background-color: #423a6f;
     width: 100%;
-    padding: 10px;
-    background: #583d72;
-    color: #fff;
+    height: 7vh;
+    font-size: medium;
+    border: 3px solid  #3d3180;
+    color:white;
+    outline-color:#3d3180;
+    cursor: pointer;
     font-weight: bold;
-    font-size: 18px;
 }
-
-.currecy-result {
-    font-size: 32px;
+.currency-result {
+    font-size: 12px;
+    color: white;
     text-align: center;
     font-weight: bold;
+    padding-bottom: 10px;
 }
